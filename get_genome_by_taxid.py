@@ -4,7 +4,7 @@ import gzip
 
 __author__ = 'timputman'
 
-def get_ref_ftp_path(taxid):
+def taxid2genom(taxid):
     """
     download genome.fasta file form NCBI FTP site by taxid
     :param taxid: str ex. '471472'
@@ -30,5 +30,3 @@ def get_ref_ftp_path(taxid):
 
     return genome
 
-
-genome = get_ref_ftp_path('471472')
